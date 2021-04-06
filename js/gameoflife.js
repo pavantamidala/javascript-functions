@@ -1,4 +1,10 @@
-function seed() {}
+function seed(){
+  let ansArr = []
+  for(let arg in arguments){
+    ansArr.push(arguments[arg])
+  }
+  return ansArr
+}
 
 function same([x, y], [j, k]) {}
 
